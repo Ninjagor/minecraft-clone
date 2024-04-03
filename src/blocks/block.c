@@ -104,7 +104,7 @@ bool CheckCollisionRayBox(Ray ray, BoundingBox box) {
 
 void RenderBlock(Block block, Camera camera) {
     Vector3 block_position = { block.x, block.y, block.z };
-    DrawCubeWires(block_position, 2.0f, 2.0f, 2.0f, BLACK);
+    // DrawCubeWires(block_position, 2.0f, 2.0f, 2.0f, BLACK);
 
     Vector2 screenCenter = { (float)GetScreenWidth() / 2, (float)GetScreenHeight() / 2 };
     Ray ray = GetMouseRay(screenCenter, camera);

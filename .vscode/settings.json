@@ -4,6 +4,9 @@
         "game.h": "c",
         "block.h": "c",
         "grass_block.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "perlin.h": "c",
+        "math.h": "c",
+        "world.h": "c"
     }
 }

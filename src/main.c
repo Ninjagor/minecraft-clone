@@ -6,13 +6,15 @@
 int main( void ) {
     InitWindow( SCREEN_WIDTH, SCREEN_HEIGHT, "Minecraft Clone - Rohit" );
 
-    SetTargetFPS( 120 );
+    SetTargetFPS( 520 );
     
     Init();
 
     while ( !WindowShouldClose() ) {
         Update();
     }
+
+    EndGame();
 
     CloseWindow();
 
